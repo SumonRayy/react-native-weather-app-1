@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import SearchBar from './components/SearchBar';
-import TempDisplay from './components/TempDisplay';
+import SearchBar from './src/components/SearchBar';
+import TempDisplay from './src/components/TempDisplay';
 
 import { API_KEY, API_URL } from '@env';
 
